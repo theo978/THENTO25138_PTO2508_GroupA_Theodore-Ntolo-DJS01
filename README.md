@@ -13,28 +13,6 @@ A simple web app where you can browse podcast shows and read details about them.
 
 ---
 
-## How to Run It
-
-You cannot just double-click `index.html` to open it. The JavaScript files use a modern feature called **ES modules**, which only works when the files are served through a local server.
-
-Here are two easy ways to run it:
-
-**Option 1 — Node.js (npx serve)**
-```bash
-cd podcast-app
-npx serve .
-```
-Then open the link it gives you (usually `http://localhost:3000`).
-
-**Option 2 — Python**
-```bash
-cd podcast-app
-python3 -m http.server
-```
-Then open `http://localhost:8000` in your browser.
-
----
-
 ## How to Use the App
 
 1. Open the app in your browser
